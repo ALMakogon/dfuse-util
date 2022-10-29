@@ -62,7 +62,7 @@ uint16_t get_quirks(uint16_t vendor, uint16_t product, uint16_t bcdDevice)
 	    product == PRODUCT_TRANSIT)
 		quirks |= QUIRK_POLLTIMEOUT;
 
-        /* STM32F411 at Chinise Black Pill board returns bogus bwPollTimeout */
+        /* STM32F411 at Chinese Black Pill board returns bogus bwPollTimeout */
         if (vendor == VENDOR_BLACKPILL &&
             product == PRODUCT_BLACKPILL)
 		quirks |= QUIRK_POLLTIMEOUT;

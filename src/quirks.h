@@ -11,7 +11,7 @@
 #define VENDOR_SIEMENS          0x0908 /* Siemens AG */
 #define VENDOR_MIDIMAN          0x0763 /* Midiman */
 #define VENDOR_GIGADEVICE       0x28e9 /* GigaDevice */
-#define VENDOR_BLACKPILL        0x0483 /* STM32F411 at Chinise Black Pill board */
+#define VENDOR_BLACKPILL        0x0483 /* STM32F411 at Chinese Black Pill board */
 
 #define PRODUCT_FREERUNNER_FIRST 0x5117
 #define PRODUCT_FREERUNNER_LAST  0x5126
